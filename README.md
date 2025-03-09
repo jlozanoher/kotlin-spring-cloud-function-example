@@ -3,6 +3,8 @@ Kotlin spring cloud function example with different types of creation function, 
 This example also contains Kotlin lambdas configured as Spring beans.
 There are also examples with flux - reactive type.
 
+*Note: This fork only upgrade all dependencies with a newer versions*
+
 ## Run with gradle
 
 ```bash
