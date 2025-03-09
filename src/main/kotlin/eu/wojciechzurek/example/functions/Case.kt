@@ -9,8 +9,8 @@ import java.util.function.Function
 class Case {
 
     @Bean
-    fun upperCase(): Function<String, String> = Function { it.toUpperCase() }
+    fun upperCase(): Function<String, String> = Function { it.uppercase() }
 
     @Bean
-    fun lowerCase(): Function<Flux<String>, Flux<String>> = Function { it.map { word -> word.toLowerCase() } }
+    fun lowerCase(): Function<Flux<String>, Flux<String>> = Function { it.map { word -> word.lowercase() } }
 }
